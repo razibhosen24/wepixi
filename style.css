@@ -174,4 +174,6 @@
             .hero-btns .btn { width: 100%; text-align: center; }
             .hero-stats { flex-direction: column; gap: 30px; }
             .hero-content { padding-top: 20px; }
+            .section-title{ text-align: center; }
+            .process-container { flex-direction: column; gap: 30px; }
         }
