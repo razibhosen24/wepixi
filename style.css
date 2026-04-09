@@ -108,7 +108,7 @@
         }
         .filter-btn.active { background: var(--primary); border-color: var(--primary); }
         
-        .portfolio-grid { /* Grid handled by Bootstrap */ }
+        /* .portfolio-grid { Grid handled by Bootstrap } */
         .portfolio-item { 
             position: relative; border-radius: 15px; overflow: hidden; height: 250px; margin-bottom: 0;
         }
