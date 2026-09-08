@@ -138,12 +138,19 @@
         .faq-question { padding: 20px; cursor: pointer; display: flex; justify-content: space-between; font-weight: 600; }
         .faq-answer { padding: 0 20px; max-height: 0; overflow: hidden; transition: 0.3s ease-out; color: var(--gray); }
 
-        /* Contact Form */
+         /* Contact Form */
         .contact-form input, .contact-form select, .contact-form textarea {
             width: 100%; padding: 15px; background: var(--glass); border: 1px solid var(--glass-border);
             border-radius: 10px; color: white; margin-bottom: 20px; outline: none;
         }
-        .contact-form input:focus { border-color: var(--primary); }
+
+        /* Option elements hover & list styling */
+        .contact-form select option {
+            background-color: #0b0f19; /* এখানে আপনার মূল সাইটের ব্যাকগ্রাউন্ড কালার ব্যবহার করুন */
+            color: white;
+        }
+
+.contact-form input:focus { border-color: var(--primary); }
 
         /* Footer */
         .social-links { display: flex; gap: 15px; margin-top: 20px; }
